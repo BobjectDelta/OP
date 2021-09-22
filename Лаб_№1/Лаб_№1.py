@@ -1,0 +1,5 @@
+print('Enter the first cathetus ')
+cathetus = float(input())
+print('Enter the hypotenuse ')
+hypotenuse = float(input())
+print('The second cathetus is ', ((hypotenuse**2 - cathetus**2)**0.5))
